@@ -1,8 +1,8 @@
 function gcd(x,y){
     while(y) {
-        var t = y;
+        var b = y;
         y = x % y;
-        x = t;
+        x = b;
     }
     return x;
 }

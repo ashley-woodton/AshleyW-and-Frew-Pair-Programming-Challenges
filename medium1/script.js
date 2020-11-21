@@ -1,13 +1,13 @@
 function vowelChecker(x){
-    if (x === 'a'  || x === 'e' || x === 'i' || x === 'o' || x === 'u'){
+    if (x.toLowerCase() === 'a'  || x.toLowerCase() === 'e' || x.toLowerCase() === 'i' || x.toLowerCase() === 'o' || x.toLowerCase() === 'u'){
         console.log("This is a vowel");
-    }else if (x === 'y'){
+    }else if (x.toLowerCase() === 'y'){
         console.log("This is sometimes a vowel");
     }else{
         console.log("This is not a vowel");
     }
 }
 
-vowelChecker('b')
-vowelChecker('a')
-vowelChecker('y')
+vowelChecker('b');
+vowelChecker('a');
+vowelChecker('Y');

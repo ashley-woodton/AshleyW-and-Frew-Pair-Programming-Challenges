@@ -1,6 +1,6 @@
 var car = {
     make: "Acura",
-    model: "TLX",
+    model: "TLX A-Spec",
     year: 2019,
     milage: 12000,
     color: "Red",

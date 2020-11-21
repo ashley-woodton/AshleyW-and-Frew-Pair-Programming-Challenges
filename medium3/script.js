@@ -8,4 +8,4 @@ function gcd(x,y){
 }
 
 console.log(gcd(78,126));
-console.log(gdc_(336,260));
+console.log(gcd(336,260));
